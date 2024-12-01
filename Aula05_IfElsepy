@@ -1,0 +1,9 @@
+idade = int(input("Digite sua idade: "))
+
+
+if(idade >= 18):
+    pode = True
+else:
+    pode = False
+
+print("Você pode beber? " + str(pode))
